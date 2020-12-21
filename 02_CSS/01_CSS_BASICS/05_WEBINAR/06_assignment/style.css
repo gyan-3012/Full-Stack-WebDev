@@ -1,0 +1,19 @@
+ul ul {
+    display: none;
+}
+
+li:hover > ul {
+    display: block;
+} 
+
+.lev1 {
+    color:blue;
+}
+
+.lev2 {
+    color:red;
+}
+
+.lev3 {
+    color:dodgerblue;
+}

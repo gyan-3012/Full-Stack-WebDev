@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <form action="http://www.google.com/search" align="right">
+        <input type="text" name="q">
+        <button type="submit">Search</button>
+        <button type="reset">❌</button>
+    </form>
+    <form action="" method="get">
+        <table cellspacing="10" cellpadding="10" align="center">
+            <tr>
+                <td>Name : </td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email : </td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Password : </td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>Gender : </td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Number : </td>
+                <td><input type="number" name="number" min="1" max="100"></td>
+            </tr>
+            <tr>
+                <td>Contact Number : </td>
+                <td><input type="tel" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td>Address : </td>
+                <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Subjects : </td>
+                <td>
+                    <input type="checkbox" name="subjects" id="phy" value="phusics">
+                    <label for="phy">Physics</label><br>
+                    <input type="checkbox" name="subjects" id="che" value="chemistry">
+                    <label for="che">Chemistry</label><br>
+                    <input type="checkbox" name="subjects" id="maths" value="mathematics">
+                    <label for="maths">Mathematics</label><br>
+                    <input type="checkbox" name="subjects" id="bio" value="biology">
+                    <label for="bio">Biology</label>
+            </tr>
+            <tr>
+                <td>City : </td>
+                <td>
+                    <select name="city">
+                        <option value="jaunpur">Jaunpur</option>
+                        <option value="sultanpur">Sultanpur</option>
+                        <option value="varanasi">Varanasi</option>
+                        <option value="gorakhpur">Gorakhpur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+
+</body>
+</html>

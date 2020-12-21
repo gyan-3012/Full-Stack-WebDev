@@ -1,0 +1,24 @@
+* {
+    font-style: italic;
+}
+div {
+    color: blue;
+}
+p{
+    color: red;
+}
+.big {
+    font-size: 25pt;
+}
+.bold {
+    font-weight: bold;
+}
+#one {
+    background-color: darkorange;
+}
+#two {
+    padding-left: 25px;
+}
+input[type="text"]{
+    height: 30pt;
+}

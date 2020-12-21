@@ -1,0 +1,34 @@
+/* id always going to have precedence over class and class going to precedence over *,
+its not matter in which these are written. */
+
+/* order of inheritance : * -> element -> class -> id */
+/* precedence order : id > class > element > * */
+
+#id1 {
+    background-color: lightgreen;
+}
+
+* {
+    background-color: cyan;
+}
+
+div {
+    background-color: lightseagreen;
+}
+
+.cl1 {
+    background-color: lightcoral;
+}
+
+#id1 {
+    background-color: lightsteelblue;
+}
+
+.cl1 {
+    background-color: lightskyblue;
+}
+
+
+
+
+
