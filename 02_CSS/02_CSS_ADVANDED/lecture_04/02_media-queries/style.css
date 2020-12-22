@@ -1,0 +1,24 @@
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    background-color: brown;
+}
+
+@media (min-width: 600px) {
+    .box {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 900px) {
+    .box {
+        background-color:limegreen;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        background-color:dodgerblue;
+    }
+}
